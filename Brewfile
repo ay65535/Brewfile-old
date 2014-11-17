@@ -4,18 +4,27 @@
 tap caskroom/cask
 install brew-cask
 cask install android-studio
+cask install appcleaner
+cask install atom
 cask install dropbox
 cask install eclipse-java
+cask install evernote
 cask install google-chrome
+cask install macwinzipper
+cask install mailbox
+cask install mou
 cask install qlstephen
 cask install quicklook-json
 cask install scriptql
 cask install sourcetree
 cask install texshop
 cask install textwrangler
+cask install the-unarchiver
+cask install vlc
 
 ## caskroom/versions
 tap caskroom/versions
+cask install clipmenu-dev
 cask install iterm2-nightly
 cask install sublime-text3
 
@@ -133,4 +142,7 @@ install youtube-dl --HEAD --with-rtmpdump
 install zsh --disable-etcdir
 
 # App Store applications
+appstore Now Playing
+appstore TweetDeck
+appstore Wunderlist
 appstore Xcode
