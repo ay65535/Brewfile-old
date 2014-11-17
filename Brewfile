@@ -16,6 +16,7 @@ cask install mou
 cask install qlstephen
 cask install quicklook-json
 cask install scriptql
+cask install skype
 cask install sourcetree
 cask install texshop
 cask install textwrangler
@@ -142,7 +143,6 @@ install youtube-dl --HEAD --with-rtmpdump
 install zsh --disable-etcdir
 
 # App Store applications
-appstore Now Playing
 appstore TweetDeck
 appstore Wunderlist
 appstore Xcode
