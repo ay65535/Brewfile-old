@@ -1,3 +1,4 @@
+
 # tap repositories and their packages
 
 ## caskroom/cask
@@ -143,6 +144,9 @@ install youtube-dl --HEAD --with-rtmpdump
 install zsh --disable-etcdir
 
 # App Store applications
+appstore Kobito
+appstore LINE
+appstore Now Playing
 appstore TweetDeck
 appstore Wunderlist
 appstore Xcode
