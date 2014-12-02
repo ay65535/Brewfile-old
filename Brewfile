@@ -4,12 +4,15 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
-cask install android-studio
 cask install appcleaner
 cask install atom
+cask install bibdesk
 cask install dropbox
 cask install eclipse-java
 cask install evernote
+cask install fluid
+cask install genymotion
+cask install github
 cask install google-chrome
 cask install macwinzipper
 cask install mailbox
@@ -19,14 +22,18 @@ cask install quicklook-json
 cask install scriptql
 cask install skype
 cask install sourcetree
+cask install tex-live-utility
 cask install texshop
 cask install textwrangler
 cask install the-unarchiver
+cask install transmission
 cask install vlc
 
 ## caskroom/versions
 tap caskroom/versions
+cask install android-studio-canary
 cask install clipmenu-dev
+cask install intellij-idea-eap
 cask install iterm2-nightly
 cask install sublime-text3
 
@@ -67,6 +74,7 @@ install colordiff
 install coreutils
 install cscope
 install ctags
+install czmq
 install fontconfig
 install fontforge
 install freetype
@@ -98,6 +106,7 @@ install libevent
 install libffi
 install libpng
 install librsvg
+install libsodium
 install libtiff
 install libtool
 install little-cms2
@@ -141,12 +150,14 @@ install webp
 install wget
 install xz
 install youtube-dl --HEAD --with-rtmpdump
+install zeromq
 install zsh --disable-etcdir
 
 # App Store applications
 appstore Kobito
 appstore LINE
 appstore Now Playing
+appstore Skitch
 appstore TweetDeck
 appstore Wunderlist
 appstore Xcode
