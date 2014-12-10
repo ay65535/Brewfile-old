@@ -8,6 +8,7 @@ cask install appcleaner
 cask install atom
 cask install bibdesk
 cask install dropbox
+cask install dupscanub
 cask install eclipse-java
 cask install evernote
 cask install fluid
@@ -114,6 +115,7 @@ install lua
 install luajit
 install lv
 install macvim --HEAD --custom-icons --override-system-vim --with-lua --with-luajit --with-python3
+install maven
 install media-info
 install mercurial
 install nkf
