@@ -22,6 +22,7 @@ cask install qlstephen
 cask install quicklook-json
 cask install scriptql
 cask install skype
+cask install slack
 cask install sourcetree
 cask install tex-live-utility
 cask install texshop
