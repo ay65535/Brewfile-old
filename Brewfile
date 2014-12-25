@@ -4,6 +4,7 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install android-file-transfer
 cask install appcleaner
 cask install atom
 cask install bibdesk
@@ -15,12 +16,15 @@ cask install fluid
 cask install genymotion
 cask install github
 cask install google-chrome
+cask install latexit
 cask install macwinzipper
 cask install mailbox
 cask install mou
+cask install processing
 cask install qlstephen
 cask install quicklook-json
 cask install scriptql
+cask install skim
 cask install skype
 cask install slack
 cask install sourcetree
@@ -80,6 +84,7 @@ install czmq
 install fontconfig
 install fontforge
 install freetype
+install gd
 install gdbm
 install gdk-pixbuf
 install gettext
@@ -109,6 +114,8 @@ install libffi
 install libpng
 install librsvg
 install libsodium
+install libsvg
+install libsvg-cairo
 install libtiff
 install libtool
 install little-cms2
@@ -143,6 +150,7 @@ install rmtrash
 install rtmpdump
 install ruby-build --HEAD
 install sqlite
+install svg2pdf
 install the_silver_searcher
 install tmux --HEAD
 install trash
@@ -160,6 +168,7 @@ install zsh --disable-etcdir
 appstore Kobito
 appstore LINE
 appstore Now Playing
+appstore OneDrive
 appstore Skitch
 appstore TweetDeck
 appstore Wunderlist
