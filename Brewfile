@@ -8,6 +8,8 @@ cask install android-file-transfer
 cask install appcleaner
 cask install atom
 cask install bibdesk
+cask install coteditor
+cask install disk-inventory-x
 cask install dropbox
 cask install dupscanub
 cask install eclipse-java
@@ -16,7 +18,9 @@ cask install fluid
 cask install genymotion
 cask install github
 cask install google-chrome
+cask install inkscape
 cask install latexit
+cask install libreoffice
 cask install macwinzipper
 cask install mailbox
 cask install mou
@@ -81,10 +85,15 @@ install coreutils
 install cscope
 install ctags
 install czmq
-install fontconfig
+install faac
+install faad2
+install fdk-aac
+install ffmpeg --HEAD --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265
+install fontconfig --universal
 install fontforge
-install freetype
-install gd
+install freetype --universal
+install fribidi
+install gd --universal
 install gdbm
 install gdk-pixbuf
 install gettext
@@ -95,62 +104,79 @@ install git --with-blk-sha1 --with-brewed-openssl
 install git-flow
 install glib
 install gmp
+install gnutls
 install go
 install gobject-introspection
+install gpac --HEAD --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
 install gptfdisk
 install gradle
-install groovy --devel --invokedynamic
+install groovy --invokedynamic
 install gtk+
 install harfbuzz
 install htop-osx
 install hub
 install icu4c
-install imagemagick --HEAD --with-fontconfig --with-ghostscript --with-librsvg --with-libtiff --with-webp
+install imagemagick --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-libtiff --with-webp
+install jasper --universal
 install jbig2dec
-install jpeg
+install jpeg --universal
+install lame
+install libass
 install libcroco
 install libevent
 install libffi
-install libpng
+install libgphoto2 --universal
+install libicns --universal
+install libogg
+install libpng --universal
 install librsvg
 install libsodium
 install libsvg
 install libsvg-cairo
-install libtiff
-install libtool
-install little-cms2
+install libtasn1 --universal
+install libtiff --universal
+install libtool --universal
+install libusb --universal
+install libusb-compat --universal
+install libvo-aacenc
+install libvorbis
+install libvpx
+install libwmf
+install libyaml
+install little-cms2 --universal
 install lua
 install luajit
 install lv
 install macvim --HEAD --custom-icons --override-system-vim --with-lua --with-luajit --with-python3
+install makedepend
 install maven
 install media-info
 install mercurial
+install nettle
 install nkf
 install nmap
-install openssl
+install openssl --universal
 install pandoc
 install pango
 install pcre
 install pixman
 install pkg-config
 install popt
+install protobuf
 install pstree
 install pyenv
-install pyenv-virtualenv
-install pyenv-virtualenvwrapper
 install python
 install python3
-install rbenv --HEAD
-install rbenv-gem-rehash
-install rbenv-gemset --HEAD
 install readline
 install reattach-to-user-namespace
 install rmtrash
 install rtmpdump
+install ruby --HEAD --with-doc
 install ruby-build --HEAD
+install sane-backends --universal
 install sqlite
 install svg2pdf
+install texi2html
 install the_silver_searcher
 install tmux --HEAD
 install trash
@@ -159,7 +185,12 @@ install w3m
 install wakeonlan
 install webp
 install wget
+install wine
+install x264
+install x265
+install xvid
 install xz
+install yasm
 install youtube-dl --HEAD --with-rtmpdump
 install zeromq
 install zsh --disable-etcdir
