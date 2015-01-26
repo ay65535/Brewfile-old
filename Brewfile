@@ -73,7 +73,6 @@ install ricty --dz --vim-powerline
 
 # Other Homebrew packages
 install afsctool
-install android-platform-tools
 install atk
 install autoconf
 install automake
@@ -103,7 +102,6 @@ install git --with-blk-sha1 --with-brewed-openssl
 install git-flow
 install glib
 install gmp
-install gnutls
 install go
 install gobject-introspection
 install gpac --HEAD --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
@@ -130,9 +128,6 @@ install libogg
 install libpng --universal
 install librsvg
 install libsodium
-install libsvg
-install libsvg-cairo
-install libtasn1 --universal
 install libtiff --universal
 install libtool --universal
 install libusb --universal
@@ -151,7 +146,6 @@ install makedepend
 install maven
 install media-info
 install mercurial
-install nettle
 install nkf
 install nmap
 install openssl --universal
@@ -169,10 +163,8 @@ install reattach-to-user-namespace
 install rmtrash
 install rtmpdump
 install ruby --HEAD --with-doc
-install ruby-build --HEAD
 install sane-backends --universal
 install sqlite
-install svg2pdf
 install texi2html
 install the_silver_searcher
 install tmux --HEAD
