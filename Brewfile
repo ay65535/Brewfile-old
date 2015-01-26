@@ -54,7 +54,6 @@ install rsync
 
 ## homebrew/versions
 tap homebrew/versions
-install protobuf240a
 
 ## motemen/ghq
 tap motemen/ghq
@@ -162,7 +161,6 @@ install pcre
 install pixman
 install pkg-config
 install popt
-install protobuf
 install pstree
 install python
 install python3
