@@ -164,7 +164,6 @@ install pkg-config
 install popt
 install protobuf
 install pstree
-install pyenv
 install python
 install python3
 install readline
