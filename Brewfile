@@ -10,15 +10,12 @@ cask install atom
 cask install bibdesk
 cask install coteditor
 cask install disk-inventory-x
-cask install dropbox
 cask install dupscanub
-cask install eclipse-java
 cask install evernote
 cask install fluid
 cask install genymotion
 cask install github
 cask install google-chrome
-cask install inkscape
 cask install latexit
 cask install libreoffice
 cask install macwinzipper
@@ -43,7 +40,6 @@ cask install vlc
 tap caskroom/versions
 cask install android-studio-canary
 cask install clipmenu-dev
-cask install intellij-idea-eap
 cask install iterm2-nightly
 cask install sublime-text3
 
@@ -65,7 +61,7 @@ install peco
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file --HEAD
+install brew-file
 
 ## sanemat/font
 tap sanemat/font
@@ -104,7 +100,6 @@ install glib
 install gmp
 install go
 install gobject-introspection
-install gpac --HEAD --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
 install gptfdisk
 install gradle
 install groovy --invokedynamic
@@ -185,11 +180,16 @@ install zeromq
 install zsh --disable-etcdir
 
 # App Store applications
+appstore GarageBand
+appstore iMovie
+appstore iPhoto
+appstore Keynote
 appstore Kobito
 appstore LINE
 appstore Now Playing
+appstore Numbers
 appstore OneDrive
-appstore Skitch
+appstore Pages
 appstore TweetDeck
 appstore Wunderlist
 appstore Xcode
