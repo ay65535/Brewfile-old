@@ -4,8 +4,10 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install air-video-server-hd
 cask install android-file-transfer
 cask install appcleaner
+cask install appcode
 cask install atom
 cask install bibdesk
 cask install coteditor
@@ -100,8 +102,10 @@ install glib
 install gmp
 install go
 install gobject-introspection
+install gpac --HEAD --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
 install gptfdisk
 install gradle
+install grc
 install groovy --invokedynamic
 install gtk+
 install harfbuzz
@@ -159,6 +163,7 @@ install rmtrash
 install rtmpdump
 install ruby --HEAD --with-doc
 install sane-backends --universal
+install spark
 install sqlite
 install texi2html
 install the_silver_searcher
@@ -183,6 +188,7 @@ install zsh --disable-etcdir
 appstore GarageBand
 appstore iMovie
 appstore iPhoto
+appstore iVolume
 appstore Keynote
 appstore Kobito
 appstore LINE
