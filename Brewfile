@@ -24,6 +24,7 @@ cask install macwinzipper
 cask install mailbox
 cask install mou
 cask install processing
+cask install pycharm
 cask install qlstephen
 cask install quicklook-json
 cask install scriptql
@@ -45,10 +46,16 @@ cask install clipmenu-dev
 cask install iterm2-nightly
 cask install sublime-text3
 
+## homebrew/binary
+tap homebrew/binary
+
 ## homebrew/dupes
 tap homebrew/dupes
 install grep
 install rsync
+
+## homebrew/python
+tap homebrew/python
 
 ## homebrew/versions
 tap homebrew/versions
@@ -155,6 +162,8 @@ install pixman
 install pkg-config
 install popt
 install pstree
+install pyenv
+install pyenv-virtualenv
 install python
 install python3
 install readline
