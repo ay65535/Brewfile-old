@@ -48,6 +48,7 @@ cask install sublime-text3
 
 ## homebrew/binary
 tap homebrew/binary
+install packer
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -82,12 +83,14 @@ install atk
 install autoconf
 install automake
 install bdw-gc
+install boot2docker
 install cairo
 install colordiff
 install coreutils
 install cscope
 install ctags
 install czmq
+install docker --without-completions
 install faac
 install faad2
 install fdk-aac
