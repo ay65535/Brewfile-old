@@ -18,11 +18,13 @@ cask install fluid
 cask install genymotion
 cask install github
 cask install google-chrome
+cask install imageoptim
 cask install latexit
 cask install libreoffice
 cask install macwinzipper
 cask install mailbox
 cask install mou
+cask install mysqlworkbench
 cask install processing
 cask install pycharm
 cask install qlstephen
@@ -44,6 +46,7 @@ tap caskroom/versions
 cask install android-studio-canary
 cask install clipmenu-dev
 cask install iterm2-nightly
+cask install sequel-pro-nightly
 cask install sublime-text3
 
 ## homebrew/binary
@@ -63,7 +66,7 @@ tap homebrew/versions
 
 ## motemen/ghq
 tap motemen/ghq
-install ghq
+install ghq --HEAD
 
 ## peco/peco
 tap peco/peco
@@ -85,6 +88,7 @@ install automake
 install bdw-gc
 install boot2docker
 install cairo
+install cmake
 install colordiff
 install coreutils
 install cscope
@@ -94,7 +98,7 @@ install docker --without-completions
 install faac
 install faad2
 install fdk-aac
-install ffmpeg --HEAD --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265
+install ffmpeg --HEAD --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
 install fontconfig --universal
 install fontforge
 install freetype --universal
@@ -197,6 +201,7 @@ install zeromq
 install zsh --disable-etcdir
 
 # App Store applications
+appstore Display Menu
 appstore GarageBand
 appstore iMovie
 appstore iPhoto
