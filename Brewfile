@@ -45,9 +45,11 @@ cask install vlc
 tap caskroom/versions
 cask install android-studio-canary
 cask install clipmenu-dev
+cask install intellij-idea-eap
 cask install iterm2-nightly
 cask install sequel-pro-nightly
 cask install sublime-text3
+cask install webstorm-eap
 
 ## homebrew/binary
 tap homebrew/binary
@@ -88,6 +90,7 @@ install automake
 install bdw-gc
 install boot2docker
 install cairo
+install ccache
 install cmake
 install colordiff
 install coreutils
@@ -170,6 +173,7 @@ install pkg-config
 install popt
 install pstree
 install pyenv
+install pyenv-ccache
 install pyenv-virtualenv
 install python
 install python3
