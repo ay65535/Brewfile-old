@@ -217,6 +217,7 @@ appstore Now Playing
 appstore Numbers
 appstore OneDrive
 appstore Pages
+appstore QuickTag
 appstore TweetDeck
 appstore Wunderlist
 appstore Xcode
