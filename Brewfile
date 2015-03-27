@@ -10,14 +10,18 @@ cask install appcleaner
 cask install appcode
 cask install atom
 cask install bibdesk
+cask install box-sync
+cask install copy
 cask install coteditor
 cask install disk-inventory-x
 cask install dupscanub
 cask install evernote
 cask install fluid
 cask install genymotion
+cask install gimp
 cask install github
 cask install google-chrome
+cask install google-drive
 cask install imageoptim
 cask install latexit
 cask install libreoffice
@@ -43,9 +47,11 @@ cask install vlc
 
 ## caskroom/versions
 tap caskroom/versions
+cask install 1password-beta
 cask install android-studio-canary
 cask install clipmenu-dev
 cask install intellij-idea-eap
+cask install iterm2-beta
 cask install iterm2-nightly
 cask install sequel-pro-nightly
 cask install sublime-text3
@@ -58,6 +64,7 @@ install packer
 ## homebrew/dupes
 tap homebrew/dupes
 install grep
+install groff
 install rsync
 
 ## homebrew/python
@@ -80,7 +87,7 @@ install brew-file
 
 ## sanemat/font
 tap sanemat/font
-install ricty --dz --vim-powerline
+install ricty --powerline --vim-powerline
 
 # Other Homebrew packages
 install afsctool
@@ -101,7 +108,8 @@ install docker --without-completions
 install faac
 install faad2
 install fdk-aac
-install ffmpeg --HEAD --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
+install ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
+install findutils
 install fontconfig --universal
 install fontforge
 install freetype --universal
@@ -113,7 +121,7 @@ install gettext
 install ghostscript
 install gibo
 install gist
-install git --with-blk-sha1 --with-brewed-openssl
+install git --with-blk-sha1 --with-brewed-openssl --with-blk-sha1 --with-brewed-openssl
 install git-flow
 install glib
 install gmp
@@ -126,6 +134,7 @@ install grc
 install groovy --invokedynamic
 install gtk+
 install harfbuzz
+install heroku-toolbelt
 install htop-osx
 install hub
 install icu4c
@@ -213,11 +222,15 @@ appstore iVolume
 appstore Keynote
 appstore Kobito
 appstore LINE
+appstore Movie Clips Free
 appstore Now Playing
 appstore Numbers
 appstore OneDrive
 appstore Pages
 appstore QuickTag
+appstore SketchBook
+appstore Skitch
+appstore ToyViewer
 appstore TweetDeck
 appstore Wunderlist
 appstore Xcode
