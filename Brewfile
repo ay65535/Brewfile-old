@@ -28,6 +28,8 @@ cask install libreoffice
 cask install macwinzipper
 cask install mailbox
 cask install mou
+cask install mplayer-osx-extended
+cask install mplayerx
 cask install mysqlworkbench
 cask install processing
 cask install pycharm
@@ -38,12 +40,14 @@ cask install skim
 cask install skype
 cask install slack
 cask install sourcetree
+cask install stellarium
 cask install tex-live-utility
 cask install texshop
 cask install textwrangler
 cask install the-unarchiver
 cask install transmission
 cask install vlc
+cask install webstorm
 
 ## caskroom/versions
 tap caskroom/versions
@@ -70,6 +74,9 @@ install rsync
 ## homebrew/python
 tap homebrew/python
 
+## homebrew/science
+tap homebrew/science
+
 ## homebrew/versions
 tap homebrew/versions
 
@@ -95,6 +102,7 @@ install atk
 install autoconf
 install automake
 install bdw-gc
+install boost
 install boot2docker
 install cairo
 install ccache
@@ -110,10 +118,12 @@ install faad2
 install fdk-aac
 install ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
 install findutils
+install flac
 install fontconfig --universal
 install fontforge
 install freetype --universal
 install fribidi
+install gawk
 install gd --universal
 install gdbm
 install gdk-pixbuf
@@ -121,7 +131,7 @@ install gettext
 install ghostscript
 install gibo
 install gist
-install git --with-blk-sha1 --with-brewed-openssl --with-blk-sha1 --with-brewed-openssl
+install git --with-blk-sha1 --with-brewed-openssl
 install git-flow
 install glib
 install gmp
@@ -145,10 +155,13 @@ install jpeg --universal
 install lame
 install libass
 install libcroco
+install libebml
 install libevent
 install libffi
 install libgphoto2 --universal
 install libicns --universal
+install libmagic
+install libmatroska
 install libogg
 install libpng --universal
 install librsvg
@@ -171,6 +184,10 @@ install makedepend
 install maven
 install media-info
 install mercurial
+install mkvtoolnix
+install mplayer
+install mplayershell
+install nicovideo-dl
 install nkf
 install nmap
 install openssl --universal
@@ -214,9 +231,9 @@ install zeromq
 install zsh --disable-etcdir
 
 # App Store applications
-appstore Display Menu
 appstore GarageBand
 appstore iMovie
+appstore iPhoto-cmp
 appstore iPhoto
 appstore iVolume
 appstore Keynote
