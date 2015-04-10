@@ -231,9 +231,9 @@ install zeromq
 install zsh --disable-etcdir
 
 # App Store applications
+appstore Display Menu
 appstore GarageBand
 appstore iMovie
-appstore iPhoto-cmp
 appstore iPhoto
 appstore iVolume
 appstore Keynote
