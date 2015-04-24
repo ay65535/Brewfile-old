@@ -9,6 +9,7 @@ cask install android-file-transfer
 cask install appcleaner
 cask install appcode
 cask install atom
+cask install bathyscaphe
 cask install bibdesk
 cask install box-sync
 cask install copy
@@ -16,6 +17,7 @@ cask install coteditor
 cask install disk-inventory-x
 cask install dupscanub
 cask install evernote
+cask install flashlight
 cask install fluid
 cask install genymotion
 cask install gimp
@@ -54,6 +56,7 @@ tap caskroom/versions
 cask install 1password-beta
 cask install android-studio-canary
 cask install clipmenu-dev
+cask install firefoxdeveloperedition-ja
 cask install intellij-idea-eap
 cask install iterm2-beta
 cask install iterm2-nightly
@@ -79,6 +82,9 @@ tap homebrew/science
 
 ## homebrew/versions
 tap homebrew/versions
+install maven2
+install maven30
+install maven32
 
 ## motemen/ghq
 tap motemen/ghq
@@ -140,6 +146,7 @@ install gobject-introspection
 install gpac --HEAD --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
 install gptfdisk
 install gradle
+install graphviz --with-bindings --with-freetype --with-librsvg --with-pango
 install grc
 install groovy --invokedynamic
 install gtk+
@@ -194,6 +201,7 @@ install openssl --universal
 install pandoc
 install pango
 install pcre
+install pdflib-lite
 install pixman
 install pkg-config
 install popt
@@ -211,6 +219,7 @@ install ruby --HEAD --with-doc
 install sane-backends --universal
 install spark
 install sqlite
+install swig
 install texi2html
 install the_silver_searcher
 install tmux --HEAD
