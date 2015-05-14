@@ -3,76 +3,77 @@
 
 ## caskroom/cask
 tap caskroom/cask
-install brew-cask
-cask install air-video-server-hd
-cask install android-file-transfer
-cask install appcleaner
-cask install appcode
-cask install atom
-cask install bathyscaphe
-cask install bibdesk
-cask install box-sync
-cask install copy
-cask install coteditor
-cask install disk-inventory-x
-cask install dupscanub
-cask install evernote
-cask install flashlight
-cask install fluid
-cask install genymotion
-cask install gimp
-cask install github
-cask install google-chrome
-cask install google-drive
-cask install imageoptim
-cask install latexit
-cask install libreoffice
-cask install macwinzipper
-cask install mailbox
-cask install mou
-cask install mplayer-osx-extended
-cask install mplayerx
-cask install mysqlworkbench
-cask install processing
-cask install pycharm
-cask install qlstephen
-cask install quicklook-json
-cask install scriptql
-cask install skim
-cask install skype
-cask install slack
-cask install sourcetree
-cask install stellarium
-cask install tex-live-utility
-cask install texshop
-cask install textwrangler
-cask install the-unarchiver
-cask install transmission
-cask install vlc
-cask install webstorm
+brew brew-cask
+cask air-video-server-hd
+cask android-file-transfer
+cask appcleaner
+cask appcode
+cask atom
+cask bathyscaphe
+cask bibdesk
+cask box-sync
+cask copy
+cask coteditor
+cask disk-inventory-x
+cask dupscanub
+cask evernote
+cask flashlight
+cask fluid
+cask genymotion
+cask gimp
+cask github
+cask google-chrome
+cask google-drive
+cask imageoptim
+cask latexit
+cask libreoffice
+cask macwinzipper
+cask mailbox
+cask mou
+cask mplayer-osx-extended
+cask mplayerx
+cask mysqlworkbench
+cask processing
+cask pycharm
+cask qlstephen
+cask quicklook-json
+cask scriptql
+cask skim
+cask skype
+cask slack
+cask sourcetree
+cask stellarium
+cask tex-live-utility
+cask texshop
+cask textwrangler
+cask the-unarchiver
+cask transmission
+cask vivaldi
+cask vlc
+cask webstorm
 
 ## caskroom/versions
 tap caskroom/versions
-cask install 1password-beta
-cask install android-studio-canary
-cask install clipmenu-dev
-cask install firefoxdeveloperedition-ja
-cask install intellij-idea-eap
-cask install iterm2-beta
-cask install iterm2-nightly
-cask install sequel-pro-nightly
-cask install sublime-text3
-cask install webstorm-eap
+cask 1password-beta
+cask android-studio-canary
+cask clipmenu-dev
+cask firefoxdeveloperedition-ja
+cask intellij-idea-eap
+cask iterm2-beta
+cask iterm2-nightly
+cask sequel-pro-nightly
+cask sublime-text3
+cask webstorm-eap
 
 ## homebrew/binary
 tap homebrew/binary
-install packer
+brew packer
 
 ## homebrew/dupes
 tap homebrew/dupes
-install grep
-install groff
-install rsync
+brew grep
+brew groff
+brew rsync
 
 ## homebrew/python
 tap homebrew/python
@@ -82,165 +83,164 @@ tap homebrew/science
 
 ## homebrew/versions
 tap homebrew/versions
-install maven2
-install maven30
-install maven32
+brew maven2
 
 ## motemen/ghq
 tap motemen/ghq
-install ghq --HEAD
+brew ghq --HEAD
 
 ## peco/peco
 tap peco/peco
-install peco
+brew peco
 
 ## rcmdnk/file
 tap rcmdnk/file
-install brew-file
+brew brew-file
 
 ## sanemat/font
 tap sanemat/font
-install ricty --powerline --vim-powerline
+brew ricty --powerline --vim-powerline
 
 # Other Homebrew packages
-install afsctool
-install atk
-install autoconf
-install automake
-install bdw-gc
-install boost
-install boot2docker
-install cairo
-install ccache
-install cmake
-install colordiff
-install coreutils
-install cscope
-install ctags
-install czmq
-install docker --without-completions
-install faac
-install faad2
-install fdk-aac
-install ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
-install findutils
-install flac
-install fontconfig --universal
-install fontforge
-install freetype --universal
-install fribidi
-install gawk
-install gd --universal
-install gdbm
-install gdk-pixbuf
-install gettext
-install ghostscript
-install gibo
-install gist
-install git --with-blk-sha1 --with-brewed-openssl
-install git-flow
-install glib
-install gmp
-install go
-install gobject-introspection
-install gpac --HEAD --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
-install gptfdisk
-install gradle
-install graphviz --with-bindings --with-freetype --with-librsvg --with-pango
-install grc
-install groovy --invokedynamic
-install gtk+
-install harfbuzz
-install heroku-toolbelt
-install htop-osx
-install hub
-install icu4c
-install imagemagick --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-libtiff --with-webp
-install jasper --universal
-install jbig2dec
-install jpeg --universal
-install lame
-install libass
-install libcroco
-install libebml
-install libevent
-install libffi
-install libgphoto2 --universal
-install libicns --universal
-install libmagic
-install libmatroska
-install libogg
-install libpng --universal
-install librsvg
-install libsodium
-install libtiff --universal
-install libtool --universal
-install libusb --universal
-install libusb-compat --universal
-install libvo-aacenc
-install libvorbis
-install libvpx
-install libwmf
-install libyaml
-install little-cms2 --universal
-install lua
-install luajit
-install lv
-install macvim --HEAD --custom-icons --override-system-vim --with-lua --with-luajit --with-python3
-install makedepend
-install maven
-install media-info
-install mercurial
-install mkvtoolnix
-install mplayer
-install mplayershell
-install nicovideo-dl
-install nkf
-install nmap
-install openssl --universal
-install pandoc
-install pango
-install pcre
-install pdflib-lite
-install pixman
-install pkg-config
-install popt
-install pstree
-install pyenv
-install pyenv-ccache
-install pyenv-virtualenv
-install python
-install python3
-install readline
-install reattach-to-user-namespace
-install rmtrash
-install rtmpdump
-install ruby --HEAD --with-doc
-install sane-backends --universal
-install spark
-install sqlite
-install swig
-install texi2html
-install the_silver_searcher
-install tmux --HEAD
-install trash
-install tree
-install w3m
-install wakeonlan
-install webp
-install wget
-install wine
-install x264
-install x265
-install xvid
-install xz
-install yasm
-install youtube-dl --HEAD --with-rtmpdump
-install zeromq
-install zsh --disable-etcdir
+brew afsctool
+brew atk
+brew autoconf
+brew automake
+brew bdw-gc
+brew boost
+brew boot2docker
+brew cairo
+brew ccache
+brew cmake
+brew colordiff
+brew coreutils
+brew cscope
+brew ctags
+brew czmq
+brew docker --without-completions
+brew faac
+brew faad2
+brew fdk-aac
+brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
+brew findutils
+brew flac
+brew fontconfig --universal
+brew fontforge
+brew freetype --universal
+brew fribidi
+brew gawk
+brew gd --universal
+brew gdbm
+brew gdk-pixbuf
+brew gettext --universal
+brew ghostscript
+brew gibo
+brew gist
+brew git --with-blk-sha1 --with-brewed-openssl
+brew git-flow
+brew glib
+brew gmp
+brew go
+brew gobject-introspection
+brew gpac --HEAD --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
+brew gptfdisk
+brew gradle
+brew graphviz --with-bindings --with-freetype --with-librsvg --with-pango
+brew grc
+brew groovy --invokedynamic
+brew gtk+
+brew harfbuzz
+brew heroku-toolbelt
+brew htop-osx
+brew hub
+brew icu4c
+brew imagemagick --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-libtiff --with-webp
+brew jasper --universal
+brew jbig2dec
+brew jpeg --universal
+brew lame
+brew libass
+brew libcroco
+brew libebml
+brew libevent
+brew libffi
+brew libgphoto2 --universal
+brew libicns --universal
+brew libmagic
+brew libmatroska
+brew libogg
+brew libpng --universal
+brew librsvg
+brew libsodium
+brew libtiff --universal
+brew libtool --universal
+brew libusb --universal
+brew libusb-compat --universal
+brew libvo-aacenc
+brew libvorbis
+brew libvpx
+brew libwmf
+brew libyaml
+brew little-cms2 --universal
+brew lua
+brew luajit
+brew lv
+brew macvim --HEAD --custom-icons --override-system-vim --with-lua --with-luajit --with-python3
+brew makedepend
+brew maven
+brew media-info
+brew mercurial
+brew mkvtoolnix
+brew mplayer
+brew mplayershell
+brew nicovideo-dl
+brew nkf
+brew nmap
+brew openssl --universal
+brew pandoc
+brew pango
+brew pcre
+brew pdflib-lite
+brew pixman
+brew pkg-config
+brew popt
+brew pstree
+brew pyenv
+brew pyenv-ccache
+brew pyenv-virtualenv
+brew python
+brew python3
+brew readline
+brew reattach-to-user-namespace
+brew rmtrash
+brew rtmpdump
+brew ruby --HEAD --with-doc
+brew sane-backends --universal
+brew spark
+brew sqlite
+brew swig
+brew texi2html
+brew the_silver_searcher
+brew tmux --HEAD
+brew trash
+brew tree
+brew w3m
+brew wakeonlan
+brew webp
+brew wget
+brew wine
+brew x264
+brew x265
+brew xvid
+brew xz
+brew yasm
+brew youtube-dl --HEAD --with-rtmpdump
+brew zeromq
+brew zsh --disable-etcdir
 
 # App Store applications
 appstore Display Menu
+appstore Duplicate Cleaner For iPhoto
 appstore GarageBand
 appstore iMovie
 appstore iPhoto
@@ -253,6 +253,7 @@ appstore Now Playing
 appstore Numbers
 appstore OneDrive
 appstore Pages
+appstore Photos Duplicate Cleaner
 appstore QuickTag
 appstore SketchBook
 appstore Skitch
