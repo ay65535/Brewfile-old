@@ -83,7 +83,6 @@ tap homebrew/science
 
 ## homebrew/versions
 tap homebrew/versions
-brew maven2
 
 ## motemen/ghq
 tap motemen/ghq
