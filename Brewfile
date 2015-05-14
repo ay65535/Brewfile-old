@@ -6,6 +6,7 @@ tap caskroom/cask
 brew brew-cask
 cask air-video-server-hd
 cask android-file-transfer
+cask android-studio
 cask appcleaner
 cask appcode
 cask atom
