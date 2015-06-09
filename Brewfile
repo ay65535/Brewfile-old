@@ -4,6 +4,7 @@
 ## caskroom/cask
 tap caskroom/cask
 brew brew-cask
+cask adobe-air
 cask air-video-server-hd
 cask android-file-transfer
 cask android-studio
@@ -17,7 +18,9 @@ cask copy
 cask coteditor
 cask disk-inventory-x
 cask dupscanub
+cask eclipse-ide
 cask evernote
+cask flash-player
 cask flashlight
 cask fluid
 cask genymotion
@@ -26,55 +29,93 @@ cask github
 cask google-chrome
 cask google-drive
 cask imageoptim
+cask itunes-volume-control
 cask latexit
 cask libreoffice
+cask macvim
 cask macwinzipper
 cask mailbox
 cask mou
 cask mplayer-osx-extended
 cask mplayerx
 cask mysqlworkbench
+cask osxfuse
+cask pdf-toolbox
+cask pdfinfo
 cask processing
 cask pycharm
 cask qlstephen
 cask quicklook-json
+cask scratch
 cask scriptql
 cask skim
+cask skitch
 cask skype
 cask slack
 cask sourcetree
 cask stellarium
+cask sublime-text
 cask tex-live-utility
 cask texshop
 cask textwrangler
 cask the-unarchiver
 cask transmission
+cask virtualbox
 cask vivaldi
 cask vlc
 cask webstorm
+
+## caskroom/fonts
+tap caskroom/fonts
+cask font-anonymous-pro-for-powerline
+cask font-anonymous-pro
+cask font-dejavu-sans-mono-for-powerline
+cask font-droid-sans-mono-for-powerline
+cask font-droid-sans-mono
+cask font-inconsolata-dz-for-powerline
+cask font-inconsolata-dz
+cask font-inconsolata-for-powerline
+cask font-inconsolata-g-for-powerline
+cask font-inconsolata-lgc
+cask font-inconsolata
+cask font-m-plus
+cask font-ricty-diminished
+cask font-rounded-m-plus
+cask font-sauce-code-powerline
+cask font-source-code-pro-for-powerline
+cask font-source-code-pro
+cask font-ubuntu-mono-powerline
+cask font-ubuntu
 
 ## caskroom/versions
 tap caskroom/versions
 cask 1password-beta
 cask android-studio-canary
+cask appcode-eap
+cask clipmenu-alpha
 cask clipmenu-dev
+cask dropbox-experimental
 cask firefoxdeveloperedition-ja
 cask intellij-idea-eap
 cask iterm2-beta
 cask iterm2-nightly
+cask macvim-kaoriya
 cask sequel-pro-nightly
 cask sublime-text3
 cask webstorm-eap
 
 ## homebrew/binary
 tap homebrew/binary
-brew packer
 
 ## homebrew/dupes
 tap homebrew/dupes
 brew grep
 brew groff
 brew rsync
+
+## homebrew/fuse
+tap homebrew/fuse
+brew sshfs
 
 ## homebrew/python
 tap homebrew/python
@@ -154,11 +195,12 @@ brew heroku-toolbelt
 brew htop-osx
 brew hub
 brew icu4c
-brew imagemagick --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-libtiff --with-webp
+brew imagemagick --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-webp
 brew jasper --universal
 brew jbig2dec
 brew jpeg --universal
 brew lame
+brew lcdf-typetools
 brew libass
 brew libcroco
 brew libebml
