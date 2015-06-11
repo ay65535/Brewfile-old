@@ -43,7 +43,6 @@ cask osxfuse
 cask pdf-toolbox
 cask pdfinfo
 cask processing
-cask pycharm
 cask qlstephen
 cask quicklook-json
 cask scratch
