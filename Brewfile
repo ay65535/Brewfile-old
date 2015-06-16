@@ -17,6 +17,7 @@ cask box-sync
 cask copy
 cask coteditor
 cask disk-inventory-x
+cask dropbox
 cask dupscanub
 cask eclipse-ide
 cask evernote
@@ -83,6 +84,7 @@ cask font-rounded-m-plus
 cask font-sauce-code-powerline
 cask font-source-code-pro-for-powerline
 cask font-source-code-pro
+cask font-source-han-code-jp
 cask font-ubuntu-mono-powerline
 cask font-ubuntu
 
@@ -93,7 +95,6 @@ cask android-studio-canary
 cask appcode-eap
 cask clipmenu-alpha
 cask clipmenu-dev
-cask dropbox-experimental
 cask firefoxdeveloperedition-ja
 cask intellij-idea-eap
 cask iterm2-beta
@@ -166,7 +167,7 @@ brew findutils
 brew flac
 brew fontconfig --universal
 brew fontforge
-brew freetype --universal
+brew freetype --universal --universal
 brew fribidi
 brew gawk
 brew gd --universal
@@ -237,7 +238,7 @@ brew mplayershell
 brew nicovideo-dl
 brew nkf
 brew nmap
-brew openssl --universal
+brew openssl --universal --universal
 brew pandoc
 brew pango
 brew pcre
