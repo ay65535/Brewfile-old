@@ -7,9 +7,7 @@ brew brew-cask
 cask adobe-air
 cask air-video-server-hd
 cask android-file-transfer
-cask android-studio
 cask appcleaner
-cask appcode
 cask atom
 cask bathyscaphe
 cask bibdesk
@@ -62,7 +60,6 @@ cask transmission
 cask virtualbox
 cask vivaldi
 cask vlc
-cask webstorm
 
 ## caskroom/fonts
 tap caskroom/fonts
@@ -100,7 +97,6 @@ cask iterm2-beta
 cask iterm2-nightly
 cask macvim-kaoriya
 cask sequel-pro-nightly
-cask sublime-text3
 cask webstorm-eap
 
 ## homebrew/binary
