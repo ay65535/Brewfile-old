@@ -54,7 +54,6 @@ cask skype
 cask slack
 cask sourcetree
 cask stellarium
-cask sublime-text
 cask tex-live-utility
 cask texshop
 cask textwrangler
@@ -167,7 +166,7 @@ brew findutils
 brew flac
 brew fontconfig --universal
 brew fontforge
-brew freetype --universal --universal
+brew freetype --universal
 brew fribidi
 brew gawk
 brew gd --universal
@@ -238,7 +237,7 @@ brew mplayershell
 brew nicovideo-dl
 brew nkf
 brew nmap
-brew openssl --universal --universal
+brew openssl --universal
 brew pandoc
 brew pango
 brew pcre
