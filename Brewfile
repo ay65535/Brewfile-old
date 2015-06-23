@@ -190,7 +190,7 @@ brew heroku-toolbelt
 brew htop-osx
 brew hub
 brew icu4c
-brew imagemagick --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-webp
+brew imagemagick --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-webp --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-webp
 brew jasper --universal
 brew jbig2dec
 brew jpeg --universal
