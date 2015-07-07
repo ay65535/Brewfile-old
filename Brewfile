@@ -32,7 +32,6 @@ cask imageoptim
 cask itunes-volume-control
 cask latexit
 cask libreoffice
-cask macvim
 cask macwinzipper
 cask mailbox
 cask mou
@@ -266,7 +265,7 @@ brew pyenv
 brew pyenv-ccache
 brew pyenv-virtualenv
 brew python
-brew python3
+brew python3 --HEAD --with-quicktest
 brew rbenv
 brew readline
 brew reattach-to-user-namespace
