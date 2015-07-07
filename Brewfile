@@ -9,6 +9,7 @@ cask air-video-server-hd
 cask android-file-transfer
 cask appcleaner
 cask atom
+cask basictex
 cask bathyscaphe
 cask bibdesk
 cask box-sync
@@ -44,6 +45,7 @@ cask pdfinfo
 cask processing
 cask qlstephen
 cask quicklook-json
+cask rubymine
 cask scratch
 cask scriptql
 cask skim
@@ -75,6 +77,7 @@ cask font-inconsolata-g-for-powerline
 cask font-inconsolata-lgc
 cask font-inconsolata
 cask font-m-plus
+cask font-noto-sans-japanese
 cask font-ricty-diminished
 cask font-rounded-m-plus
 cask font-sauce-code-powerline
@@ -92,6 +95,7 @@ cask appcode-eap
 cask clipmenu-alpha
 cask clipmenu-dev
 cask firefoxdeveloperedition-ja
+cask google-chrome-dev
 cask intellij-idea-eap
 cask iterm2-beta
 cask iterm2-nightly
@@ -111,6 +115,9 @@ brew rsync
 ## homebrew/fuse
 tap homebrew/fuse
 brew sshfs
+
+## homebrew/head-only
+tap homebrew/head-only
 
 ## homebrew/python
 tap homebrew/python
@@ -153,12 +160,15 @@ brew coreutils
 brew cscope
 brew ctags
 brew czmq
+brew dirmngr
 brew docker --without-completions
+brew doxygen
 brew faac
 brew faad2
 brew fdk-aac
 brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
 brew findutils
+brew fish --HEAD
 brew flac
 brew fontconfig --universal
 brew fontforge
@@ -176,9 +186,12 @@ brew git --with-blk-sha1 --with-brewed-openssl
 brew git-flow
 brew glib
 brew gmp
+brew gnupg
+brew gnupg2
 brew go
 brew gobject-introspection
 brew gpac --HEAD --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
+brew gpg-agent
 brew gptfdisk
 brew gradle
 brew graphviz --with-bindings --with-freetype --with-librsvg --with-pango
@@ -187,6 +200,7 @@ brew groovy --invokedynamic
 brew gtk+
 brew harfbuzz
 brew heroku-toolbelt
+brew hicolor-icon-theme
 brew htop-osx
 brew hub
 brew icu4c
@@ -197,12 +211,16 @@ brew jpeg --universal
 brew lame
 brew lcdf-typetools
 brew libass
+brew libassuan
 brew libcroco
 brew libebml
 brew libevent
 brew libffi
+brew libgcrypt
+brew libgpg-error
 brew libgphoto2 --universal
 brew libicns --universal
+brew libksba
 brew libmagic
 brew libmatroska
 brew libogg
@@ -238,20 +256,24 @@ brew pandoc
 brew pango
 brew pcre
 brew pdflib-lite
+brew pinentry
 brew pixman
 brew pkg-config
 brew popt
 brew pstree
+brew pth
 brew pyenv
 brew pyenv-ccache
 brew pyenv-virtualenv
 brew python
 brew python3
+brew rbenv
 brew readline
 brew reattach-to-user-namespace
 brew rmtrash
 brew rtmpdump
 brew ruby --HEAD --with-doc
+brew ruby-build
 brew sane-backends --universal
 brew spark
 brew sqlite
