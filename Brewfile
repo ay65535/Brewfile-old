@@ -301,6 +301,7 @@ appstore Display Menu
 appstore Duplicate Cleaner For iPhoto
 appstore GarageBand
 appstore iMovie
+appstore Install OS X El Capitan Public Beta
 appstore iPhoto
 appstore iVolume
 appstore Keynote
