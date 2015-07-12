@@ -147,26 +147,25 @@ brew atk
 brew autoconf
 brew automake
 brew bdw-gc
-brew boost --HEAD
+brew boost
 brew boot2docker --HEAD
 brew cairo
-brew ccache --HEAD
+brew ccache
 brew cmake --HEAD
 brew colordiff
 brew coreutils --HEAD
 brew cscope
 brew ctags --HEAD
 brew czmq --HEAD
-brew dirmngr
 brew docker --with-experimental --HEAD
-brew doxygen --HEAD
+brew doxygen
 brew faac
 brew faad2
 brew fdk-aac --HEAD
 brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc --HEAD
 brew findutils
 brew fish --HEAD
-brew flac --HEAD
+brew flac
 brew fontconfig --universal
 brew fontforge --HEAD
 brew freetype --universal
@@ -187,7 +186,6 @@ brew gnupg
 brew go --HEAD
 brew gobject-introspection
 brew gpac --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis --HEAD
-brew gpg-agent
 brew gptfdisk
 brew gradle
 brew graphviz --with-bindings --with-freetype --with-librsvg --with-pango
@@ -211,7 +209,6 @@ brew libcroco
 brew libebml --HEAD
 brew libevent --HEAD
 brew libffi --HEAD
-brew libgcrypt
 brew libgpg-error
 brew libgphoto2 --universal
 brew libicns --universal
@@ -239,7 +236,6 @@ brew macvim --custom-icons --override-system-vim --with-lua --with-luajit --with
 brew makedepend
 brew maven
 brew media-info
-brew mkvtoolnix --HEAD
 brew mplayer --HEAD
 brew mplayershell --HEAD
 brew nicovideo-dl
