@@ -1,13 +1,8 @@
 
 # tap repositories and their packages
 
-brew git --with-blk-sha1 --with-brewed-openssl --with-pcre --with-persistent-https --HEAD
-brew brew-file --HEAD
-
 ## caskroom/cask
 tap caskroom/cask
-brew git-flow --HEAD
-brew ruby --with-doc --HEAD
 brew brew-cask --HEAD
 cask adobe-air
 cask air-video-server-hd
@@ -23,7 +18,7 @@ cask coteditor
 cask disk-inventory-x
 cask dropbox
 cask dupscanub
-cask eclipse-ide
+cask eclipse-java
 cask evernote
 cask flash-player
 cask flashlight
@@ -37,6 +32,7 @@ cask imageoptim
 cask itunes-volume-control
 cask latexit
 cask libreoffice
+cask macs-fan-control
 cask macwinzipper
 cask mailbox
 cask mou
@@ -105,12 +101,16 @@ cask iterm2-nightly
 cask macvim-kaoriya
 cask sequel-pro-nightly
 cask webstorm-eap
+cask xquartz-beta
 
 ## homebrew/binary
 tap homebrew/binary
 
 ## homebrew/dupes
 tap homebrew/dupes
+brew grep
+brew groff
+brew rsync
 
 ## homebrew/fuse
 tap homebrew/fuse
@@ -129,190 +129,178 @@ tap homebrew/versions
 
 ## motemen/ghq
 tap motemen/ghq
+brew ghq --HEAD
 
 ## peco/peco
 tap peco/peco
+brew peco --HEAD
 
 ## rcmdnk/file
 tap rcmdnk/file
+brew brew-file --HEAD
 
 ## sanemat/font
 tap sanemat/font
-
-# Other Homebrew packages
-brew ruby-build --HEAD
-brew xz
-brew pcre --HEAD
-brew grep
-
-brew autoconf
-brew rsync
-
-brew go --HEAD
-brew automake
-brew pkg-config
-brew libtool --universal
-brew gettext --universal
-brew libffi --HEAD
-brew glib
-brew libpng --universal
-brew freetype --universal
-brew fontconfig --universal
-brew pixman
-brew cairo
-brew icu4c --HEAD
-brew cmake --HEAD
-brew gobject-introspection
-brew harfbuzz
-brew pango --HEAD
-brew libsodium --HEAD
-brew zeromq --HEAD
-brew czmq --HEAD
-brew jpeg --universal
-brew libtiff --universal
-brew fontforge --HEAD
 brew ricty --powerline --vim-powerline
 
-brew docker --with-experimental --HEAD
-brew jasper --universal
-brew gdk-pixbuf
-brew atk
-brew hicolor-icon-theme
-brew libcroco
-brew librsvg
-brew graphviz --with-bindings --with-freetype --with-librsvg --with-pango
-brew texi2html
-brew yasm --HEAD
-brew x264 --HEAD
-brew lame
-brew libvo-aacenc
-brew xvid
-brew faac
-brew libogg --HEAD
-brew libvorbis --HEAD
-brew libvpx --HEAD
-brew makedepend
-brew openssl --universal
-brew rtmpdump --HEAD
-brew fribidi
-brew libass
-brew little-cms2 --universal
-brew fdk-aac --HEAD
-brew lua
-brew x265 --HEAD
-brew webp --HEAD
-brew python --with-poll --HEAD
-brew jbig2dec
-brew faad2
-brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc --HEAD
-brew popt
-brew gd --universal --HEAD
-brew libwmf
-brew ghostscript --HEAD
-brew libgpg-error
-brew doxygen
-brew libusb --universal --HEAD
-brew libusb-compat --universal
-brew libebml --HEAD
-brew cscope
-brew luajit --HEAD
-brew python3 --HEAD
-brew mplayer --HEAD
-brew mplayershell --HEAD
-brew gmp
-brew libassuan
-brew pyenv --HEAD
-brew pyenv-ccache --HEAD
-brew pyenv-virtualenv --HEAD
-brew ccache
-brew readline
-brew sqlite
-brew gdbm
-brew libyaml
-brew libevent --HEAD
-brew bdw-gc
-brew libgphoto2 --universal
-brew libicns --universal
-brew sane-backends --universal
-
+# Other Homebrew packages
 brew afsctool
+brew atk
+brew autoconf
+brew automake
+brew bdw-gc
+brew bison
 brew boost
 brew boot2docker --HEAD
+brew cairo
+brew ccache
+brew cmake --HEAD
 brew colordiff
 brew coreutils --HEAD
+brew cscope
 brew ctags --HEAD
+brew czmq
+brew docker
+brew doxygen
+brew faac
+brew faad2
+brew fdk-aac --HEAD
+brew ffmpeg --HEAD --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
 brew findutils
 brew fish --HEAD
 brew flac
+brew fontconfig --universal
+brew fontforge
+brew freetype --universal
+brew fribidi
 brew gawk
-brew ghq --HEAD
+brew gcc --with-jit --with-nls
+brew gd --HEAD --universal
+brew gdbm
+brew gdk-pixbuf
+brew gettext
+brew ghostscript --HEAD
 brew gibo
 brew gist --HEAD
+brew git --HEAD --with-blk-sha1 --with-brewed-openssl --with-pcre --with-persistent-https
+brew git-flow --HEAD
+brew glib
+brew gmp
 brew gnupg
-brew gpac --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis --HEAD
+brew gnutls
+brew go
+brew gobject-introspection
+brew gpac --HEAD --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
 brew gptfdisk
 brew gradle
+brew graphviz --with-bindings --with-freetype --with-librsvg --with-pango
 brew grc
 brew groovy --invokedynamic
 brew gtk+ --with-quartz-relocation
+brew harfbuzz
+brew hicolor-icon-theme
 brew htop-osx
 brew hub --HEAD
-brew imagemagick --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-webp --HEAD
+brew icu4c
+brew imagemagick --HEAD --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-webp
+brew intltool
+brew isl
+brew jasper --universal
+brew jbig2dec
+brew jpeg --universal
+brew lame
 brew lcdf-typetools
+brew libass
+brew libassuan
+brew libatomic_ops
+brew libcroco
+brew libebml --HEAD
+brew libevent
+brew libffi
+brew libgpg-error
+brew libgphoto2 --universal
+brew libicns --universal
 brew libksba
 brew libmagic
 brew libmatroska --HEAD
+brew libmpc
+brew libogg
+brew libpng --universal
+brew librsvg
+brew libsodium --HEAD
+brew libtasn1 --universal
+brew libtiff --universal
+brew libtool --universal
+brew libusb --HEAD --universal
+brew libusb-compat --universal
+brew libvo-aacenc
+brew libvorbis
+brew libvpx
+brew libwmf
+brew libyaml
+brew little-cms2 --universal
+brew lua
+brew luajit --HEAD
 brew lv
-brew macvim --custom-icons --override-system-vim --with-lua --with-luajit --with-python3 --HEAD
+brew macvim --HEAD --custom-icons --override-system-vim --with-lua --with-luajit --with-python3
+brew makedepend
 brew maven
 brew media-info
+brew mercurial
+brew mpfr
+brew mplayer --HEAD
+brew mplayershell --HEAD
+brew nettle
 brew nicovideo-dl
 brew nkf
 brew nmap --HEAD
-brew pandoc --HEAD
+brew openssl --universal
+brew pango
+brew pcre
 brew pdflib-lite
-brew peco --HEAD
 brew pinentry
+brew pixman
+brew pkg-config
+brew popt
 brew pstree
 brew pth
+brew pyenv --HEAD
+brew pyenv-ccache --HEAD
+brew pyenv-virtualenv --HEAD
+brew python --HEAD --with-poll
+brew python3 --HEAD
 brew rbenv --HEAD
+brew readline
 brew reattach-to-user-namespace --HEAD
 brew rmtrash
+brew rtmpdump
+brew ruby --HEAD --with-doc
+brew ruby-build --HEAD
+brew sane-backends --universal
 brew spark
+brew sqlite
 brew swig
-brew the_silver_searcher --HEAD
+brew texi2html
+brew texinfo
+brew the_silver_searcher
 brew tmux --HEAD
 brew trash
 brew tree
 brew w3m
 brew wakeonlan
-brew wget --HEAD
-brew wine --HEAD
-brew youtube-dl --with-rtmpdump --HEAD
+brew webp
+brew wget
+brew wine --devel
+brew x264
+brew x265
+brew xvid
+brew xz
+brew yasm
+brew youtube-dl --with-rtmpdump
+brew zeromq
 brew zsh --disable-etcdir
-brew groff
 
 # App Store applications
-appstore Display Menu
-appstore Duplicate Cleaner For iPhoto
-appstore GarageBand
-appstore iMovie
-appstore Install OS X El Capitan Public Beta
-appstore iPhoto
-appstore iVolume
-appstore Keynote
 appstore Kobito
-appstore LINE
-appstore Movie Clips Free
-appstore Now Playing
-appstore Numbers
 appstore OneDrive
-appstore Pages
-appstore Photos Duplicate Cleaner
-appstore QuickTag
-appstore SketchBook
-appstore Skitch
-appstore ToyViewer
 appstore TweetDeck
-appstore Wunderlist
-appstore Xcode
