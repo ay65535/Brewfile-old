@@ -30,7 +30,9 @@ cask google-chrome
 cask google-drive
 cask imageoptim
 cask itunes-volume-control
+cask karabiner
 cask latexit
+cask launchcontrol
 cask libreoffice
 cask macs-fan-control
 cask macwinzipper
@@ -99,6 +101,7 @@ cask intellij-idea-eap
 cask iterm2-beta
 cask iterm2-nightly
 cask macvim-kaoriya
+cask microsoft-office-preview
 cask sequel-pro-nightly
 cask webstorm-eap
 cask xquartz-beta
