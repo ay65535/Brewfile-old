@@ -71,7 +71,6 @@ cask font-anonymous-pro
 cask font-dejavu-sans-mono-for-powerline
 cask font-droid-sans-mono-for-powerline
 cask font-droid-sans-mono
-cask font-inconsolata-dz-for-powerline
 cask font-inconsolata-dz
 cask font-inconsolata-for-powerline
 cask font-inconsolata-g-for-powerline
