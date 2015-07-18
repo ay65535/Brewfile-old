@@ -269,8 +269,6 @@ brew pth
 brew pyenv --HEAD
 brew pyenv-ccache --HEAD
 brew pyenv-virtualenv --HEAD
-brew python --HEAD --with-poll
-brew python3 --HEAD
 brew rbenv --HEAD
 brew readline
 brew reattach-to-user-namespace --HEAD
