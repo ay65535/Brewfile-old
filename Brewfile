@@ -31,6 +31,7 @@ cask font-source-han-code-jp
 ## caskroom/versions
 tap caskroom/versions
 cask clipmenu-dev
+cask firefoxdeveloperedition-ja
 cask iterm2-nightly
 
 ## homebrew/dupes
@@ -70,6 +71,7 @@ brew gdk-pixbuf
 brew gettext
 brew ghostscript
 brew ghq
+brew gibo
 brew git --HEAD --with-blk-sha1 --with-brewed-openssl --with-pcre --with-persistent-https
 brew glib
 brew gmp
@@ -111,8 +113,10 @@ brew luajit
 brew macvim --HEAD --custom-icons --override-system-vim --with-lua --with-luajit --with-python3
 brew makedepend
 brew nettle
+brew nkf
 brew openssl --universal
 brew p7zip
+brew pandoc
 brew pango
 brew pcre
 brew pdflib-lite
@@ -133,6 +137,7 @@ brew the_silver_searcher
 brew tmux --HEAD
 brew unrar
 brew webp
+brew wget
 brew wine --HEAD
 brew winetricks
 brew wxmac
