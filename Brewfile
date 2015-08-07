@@ -33,6 +33,7 @@ tap caskroom/versions
 cask clipmenu-dev
 cask firefoxdeveloperedition-ja
 cask iterm2-nightly
+cask thunderbird-ja
 
 ## homebrew/dupes
 tap homebrew/dupes
