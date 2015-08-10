@@ -5,6 +5,7 @@
 tap caskroom/cask
 brew brew-cask
 cask 1password
+cask android-studio
 cask bibdesk
 cask evernote
 cask excalibur
@@ -83,6 +84,7 @@ brew go
 brew gobject-introspection
 brew gpac --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
 brew gptfdisk
+brew gradle
 brew harfbuzz
 brew hub
 brew icu4c
@@ -152,5 +154,6 @@ brew zeromq
 brew zsh
 
 # App Store applications
+appstore LINE
 appstore TweetDeck
 appstore Xcode
