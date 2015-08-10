@@ -30,6 +30,7 @@ cask font-source-han-code-jp
 
 ## caskroom/versions
 tap caskroom/versions
+cask android-studio-canary
 cask clipmenu-dev
 cask firefoxdeveloperedition-ja
 cask iterm2-nightly
