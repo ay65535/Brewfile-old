@@ -6,6 +6,7 @@ tap caskroom/cask
 brew brew-cask
 cask 1password
 cask android-studio
+cask appcleaner
 cask bibdesk
 cask evernote
 cask excalibur
@@ -31,7 +32,6 @@ cask font-source-han-code-jp
 
 ## caskroom/versions
 tap caskroom/versions
-cask android-studio-canary
 cask clipmenu-dev
 cask firefoxdeveloperedition-ja
 cask iterm2-nightly
@@ -62,7 +62,7 @@ brew czmq
 brew faac
 brew faad2
 brew fdk-aac
-brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
+brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
 brew fizsh
 brew fontconfig --universal
 brew fontforge
