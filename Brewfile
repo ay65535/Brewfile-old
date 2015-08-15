@@ -62,7 +62,7 @@ brew czmq
 brew faac
 brew faad2
 brew fdk-aac
-brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
+brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
 brew fizsh
 brew fontconfig --universal
 brew fontforge
@@ -154,6 +154,8 @@ brew zeromq
 brew zsh
 
 # App Store applications
+appstore LadioCast
 appstore LINE
 appstore TweetDeck
+appstore Twitter
 appstore Xcode
