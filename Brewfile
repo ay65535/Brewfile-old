@@ -133,7 +133,7 @@ brew python3
 brew readline
 brew reattach-to-user-namespace
 brew rtmpdump
-brew ruby --with-doc
+brew ruby --with-doc --with-doc
 brew sane-backends --universal
 brew sqlite
 brew texi2html
