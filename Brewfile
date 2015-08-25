@@ -8,9 +8,12 @@ cask 1password
 cask android-studio
 cask appcleaner
 cask bibdesk
+cask disk-inventory-x
 cask evernote
 cask excalibur
+cask genymotion
 cask google-chrome
+cask google-drive
 cask google-photos-backup
 cask latexit
 cask macwinzipper
@@ -25,6 +28,7 @@ cask tex-live-utility
 cask texshop
 cask textwrangler
 cask unetbootin
+cask virtualbox
 
 ## caskroom/fonts
 tap caskroom/fonts
@@ -133,7 +137,7 @@ brew python3
 brew readline
 brew reattach-to-user-namespace
 brew rtmpdump
-brew ruby --with-doc --with-doc
+brew ruby --with-doc
 brew sane-backends --universal
 brew sqlite
 brew texi2html
@@ -156,6 +160,7 @@ brew zsh
 # App Store applications
 appstore LadioCast
 appstore LINE
+appstore OneDrive
 appstore TweetDeck
 appstore Twitter
 appstore Xcode
