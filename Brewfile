@@ -11,6 +11,7 @@ cask bibdesk
 cask disk-inventory-x
 cask evernote
 cask excalibur
+cask filezilla
 cask genymotion
 cask google-chrome
 cask google-drive
@@ -19,6 +20,7 @@ cask latexit
 cask macwinzipper
 cask mou
 cask p4merge
+cask phpstorm
 cask pycharm
 cask qlstephen
 cask skim
@@ -45,6 +47,13 @@ cask thunderbird-ja
 tap homebrew/dupes
 brew tcl-tk
 
+## homebrew/php
+tap homebrew/php
+brew php56
+
+## homebrew/versions
+tap homebrew/versions
+
 ## rcmdnk/file
 tap rcmdnk/file
 brew brew-file
@@ -63,6 +72,7 @@ brew cscope
 brew ctags
 brew cvs
 brew czmq
+brew docker --HEAD --with-experimental
 brew faac
 brew faad2
 brew fdk-aac
@@ -82,6 +92,7 @@ brew gibo
 brew git --HEAD --with-blk-sha1 --with-brewed-openssl --with-pcre --with-persistent-https
 brew glib
 brew gmp
+brew gnupg
 brew gnuplot --with-aquaterm
 brew gnutls
 brew go
@@ -90,6 +101,7 @@ brew gpac --with-faad2 --with-ffmpeg --with-libogg --with-libvorbis
 brew gptfdisk
 brew gradle
 brew harfbuzz
+brew htop-osx
 brew hub
 brew icu4c
 brew imagemagick --with-fontconfig --with-ghostscript --with-librsvg --with-libwmf --with-webp
@@ -120,6 +132,7 @@ brew lua
 brew luajit
 brew macvim --HEAD --custom-icons --override-system-vim --with-lua --with-luajit --with-python3
 brew makedepend
+brew mysql
 brew nettle
 brew nkf
 brew openssl --universal
@@ -143,6 +156,7 @@ brew sqlite
 brew texi2html
 brew the_silver_searcher
 brew tmux --HEAD
+brew unixodbc
 brew unrar
 brew webp
 brew wget
@@ -151,6 +165,7 @@ brew winetricks
 brew wxmac
 brew x264
 brew x265
+brew xhyve
 brew xvid
 brew xz
 brew yasm
