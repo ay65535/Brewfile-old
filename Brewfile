@@ -8,6 +8,7 @@ cask 1password
 cask android-studio
 cask appcleaner
 cask bibdesk
+cask coteditor
 cask disk-inventory-x
 cask evernote
 cask excalibur
