@@ -176,6 +176,7 @@ brew zsh
 # App Store applications
 appstore LadioCast
 appstore LINE
+appstore Now Playing
 appstore OneDrive
 appstore TweetDeck
 appstore Twitter
