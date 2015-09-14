@@ -127,6 +127,7 @@ brew libusb-compat --universal
 brew libvorbis
 brew libvpx
 brew libwmf
+brew libxml2 --with-python
 brew libyaml
 brew little-cms2 --universal
 brew lua
