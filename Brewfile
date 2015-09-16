@@ -77,7 +77,7 @@ brew docker --HEAD --with-experimental
 brew faac
 brew faad2
 brew fdk-aac
-brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
+brew ffmpeg --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc --with-faac --with-fdk-aac --with-fontconfig --with-freetype --with-libass --with-libvorbis --with-libvpx --with-openssl --with-rtmpdump --with-x265 --without-libvo-aacenc
 brew fizsh
 brew fontconfig --universal
 brew fontforge
@@ -120,7 +120,7 @@ brew libogg
 brew libpng --universal
 brew librsvg
 brew libtasn1 --universal
-brew libtiff --universal
+brew libtiff --universal --universal
 brew libtool --universal
 brew libusb --universal
 brew libusb-compat --universal
