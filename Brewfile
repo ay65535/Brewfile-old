@@ -43,6 +43,7 @@ cask clipmenu-dev
 cask firefoxdeveloperedition-ja
 cask iterm2-nightly
 cask thunderbird-ja
+cask vlc-nightly
 
 ## homebrew/dupes
 tap homebrew/dupes
@@ -64,6 +65,7 @@ tap sanemat/font
 brew ricty --powerline --vim-powerline
 
 # Other Homebrew packages
+brew afsctool
 brew autoconf
 brew automake
 brew cabextract
@@ -132,7 +134,7 @@ brew libyaml
 brew little-cms2 --universal
 brew lua
 brew luajit
-brew macvim --HEAD --custom-icons --override-system-vim --with-lua --with-luajit --with-python3
+brew macvim --HEAD --with-custom-icons --with-lua --with-luajit --with-override-system-vim --with-python3
 brew makedepend
 brew mysql
 brew nettle
@@ -151,6 +153,7 @@ brew python --with-tcl-tk
 brew python3
 brew readline
 brew reattach-to-user-namespace
+brew rmtrash
 brew rtmpdump
 brew ruby --with-doc
 brew sane-backends --universal
@@ -158,6 +161,8 @@ brew sqlite
 brew texi2html
 brew the_silver_searcher
 brew tmux --HEAD
+brew trash
+brew tree
 brew unixodbc
 brew unrar
 brew webp
