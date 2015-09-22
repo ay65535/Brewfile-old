@@ -25,6 +25,7 @@ cask phpstorm
 cask pycharm
 cask qlstephen
 cask skim
+cask skype
 cask slack
 cask sourcetree
 cask tex-live-utility
@@ -121,7 +122,7 @@ brew libicns --universal
 brew libogg
 brew libpng --universal
 brew librsvg
-brew libtasn1 --universal
+brew libtasn1 --universal --universal
 brew libtiff --universal
 brew libtool --universal
 brew libusb --universal
