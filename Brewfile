@@ -122,7 +122,7 @@ brew libicns --universal
 brew libogg
 brew libpng --universal
 brew librsvg
-brew libtasn1 --universal --universal
+brew libtasn1 --universal
 brew libtiff --universal
 brew libtool --universal
 brew libusb --universal
