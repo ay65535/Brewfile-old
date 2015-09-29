@@ -125,7 +125,7 @@ brew librsvg
 brew libtasn1 --universal
 brew libtiff --universal
 brew libtool --universal
-brew libusb --universal
+brew libusb --universal --universal
 brew libusb-compat --universal
 brew libvorbis
 brew libvpx
