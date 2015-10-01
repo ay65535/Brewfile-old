@@ -12,6 +12,7 @@ cask google-chrome
 cask macwinzipper
 cask mou
 cask skype
+cask slack
 cask sourcetree
 cask textwrangler
 cask the-unarchiver
@@ -60,6 +61,7 @@ brew cairo
 brew colordiff
 brew coreutils --HEAD
 brew cscope
+brew ctags
 brew czmq
 brew emacs --HEAD --with-cocoa
 brew fdk-aac
@@ -80,6 +82,7 @@ brew gobject-introspection
 brew gptfdisk
 brew harfbuzz
 brew htop-osx
+brew hub
 brew icu4c
 brew imagemagick --HEAD
 brew jbig2dec
@@ -135,4 +138,9 @@ brew zeromq
 brew zsh
 
 # App Store applications
+appstore Kobito
+appstore LINE
+appstore OneDrive
+appstore TweetDeck
+appstore Twitter
 appstore Xcode
