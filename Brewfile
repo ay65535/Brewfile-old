@@ -6,6 +6,7 @@ tap caskroom/cask
 brew brew-cask --HEAD
 cask android-studio
 cask atom
+cask backuploupe
 cask coteditor
 cask disk-inventory-x
 cask dupscanub
