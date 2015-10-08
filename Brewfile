@@ -117,7 +117,7 @@ brew go --HEAD
 brew gobject-introspection
 brew gptfdisk
 brew gradle
-brew groovy --with-invokedynamic --with-invokedynamic
+brew groovy --with-invokedynamic
 brew gtk-doc
 brew harfbuzz --HEAD
 brew htop-osx
