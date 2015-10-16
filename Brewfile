@@ -149,6 +149,7 @@ brew macvim --HEAD --with-custom-icons --with-lua --with-luajit --with-override-
 brew maven
 brew media-info
 brew mercurial
+brew mkvtoolnix --HEAD --with-gettext
 brew mplayer --HEAD
 brew mplayershell --HEAD
 brew nicovideo-dl
@@ -199,6 +200,7 @@ appstore LINE
 appstore Now Playing
 appstore OneDrive
 appstore Photos Duplicate Cleaner
+appstore Todoist
 appstore TweetDeck
 appstore Twitter
 appstore Xcode
