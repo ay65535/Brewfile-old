@@ -77,6 +77,7 @@ brew autoconf
 brew automake
 brew bdw-gc --HEAD
 brew bison
+brew boost
 brew boot2docker --HEAD
 brew cabal-install
 brew cairo
@@ -95,6 +96,7 @@ brew ffmpeg --HEAD --with-fdk-aac --with-libass --with-libvorbis --with-libvpx -
 brew findutils
 brew fish --HEAD
 brew fizsh --HEAD
+brew flac
 brew flex
 brew fontconfig
 brew fontforge --HEAD
@@ -132,8 +134,11 @@ brew libass
 brew libatomic_ops
 brew libcaca
 brew libcroco
+brew libebml
 brew libevent --HEAD
 brew libffi
+brew libmagic
+brew libmatroska
 brew libogg --HEAD
 brew libpng
 brew librsvg
