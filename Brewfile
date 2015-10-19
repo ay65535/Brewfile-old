@@ -7,6 +7,7 @@ brew brew-cask --HEAD
 cask android-studio
 cask atom
 cask backuploupe
+cask commander-one
 cask coteditor
 cask disk-inventory-x
 cask dupscanub
@@ -164,6 +165,7 @@ brew openssl
 brew pandoc
 brew pango --HEAD
 brew pcre --HEAD
+brew pcre2
 brew peco --HEAD
 brew pixman
 brew pkg-config
@@ -205,6 +207,7 @@ appstore LINE
 appstore Now Playing
 appstore OneDrive
 appstore Photos Duplicate Cleaner
+appstore Pocket
 appstore Todoist
 appstore TweetDeck
 appstore Twitter
