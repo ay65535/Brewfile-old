@@ -39,6 +39,7 @@ cask font-source-han-code-jp
 ## caskroom/versions
 tap caskroom/versions
 cask 1password-beta
+cask android-studio-canary
 cask appcleaner-beta
 cask clipmenu-dev
 cask firefoxdeveloperedition-ja
