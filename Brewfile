@@ -4,7 +4,6 @@
 ## caskroom/cask
 tap caskroom/cask
 brew brew-cask --HEAD
-cask android-studio
 cask atom
 cask backuploupe
 cask commander-one
@@ -43,8 +42,10 @@ cask android-studio-canary
 cask appcleaner-beta
 cask clipmenu-dev
 cask firefoxdeveloperedition-ja
+cask google-chrome-dev
 cask iterm2-nightly
 cask opera-developer
+cask pycharm-eap
 cask sequel-pro-nightly
 cask vlc-nightly
 
