@@ -42,12 +42,14 @@ cask android-studio-canary
 cask appcleaner-beta
 cask clipmenu-dev
 cask firefoxdeveloperedition-ja
+cask google-chrome-canary
 cask google-chrome-dev
 cask iterm2-nightly
 cask opera-developer
 cask pycharm-eap
 cask sequel-pro-nightly
 cask vlc-nightly
+cask webstorm-eap
 
 ## homebrew/binary
 tap homebrew/binary
