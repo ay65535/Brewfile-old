@@ -26,6 +26,7 @@ cask skitch
 cask skype
 cask slack
 cask sourcetree
+cask texshop
 cask textwrangler
 cask the-unarchiver
 cask transmission
@@ -46,6 +47,7 @@ cask google-chrome-canary
 cask google-chrome-dev
 cask iterm2-nightly
 cask opera-developer
+cask phpstorm-eap
 cask pycharm-eap
 cask sequel-pro-nightly
 cask vlc-nightly
