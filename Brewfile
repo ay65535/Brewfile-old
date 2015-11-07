@@ -41,6 +41,7 @@ tap caskroom/versions
 cask 1password-beta
 cask android-studio-canary
 cask appcleaner-beta
+cask atom-beta
 cask clipmenu-dev
 cask firefoxdeveloperedition-ja
 cask google-chrome-canary
