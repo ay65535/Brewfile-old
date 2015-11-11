@@ -219,4 +219,5 @@ appstore Pocket
 appstore Todoist
 appstore TweetDeck
 appstore Twitter
+appstore Wunderlist
 appstore Xcode
