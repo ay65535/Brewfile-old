@@ -3,7 +3,7 @@
 
 ## caskroom/cask
 tap caskroom/cask
-brew brew-cask --HEAD
+brew brew-cask
 cask atom
 cask backuploupe
 cask commander-one
@@ -65,7 +65,7 @@ brew rsync
 
 ## homebrew/php
 tap homebrew/php
-brew php56 --HEAD --without-ldap
+brew php56 --without-ldap
 
 ## homebrew/versions
 tap homebrew/versions
@@ -73,7 +73,7 @@ brew bison27
 
 ## rcmdnk/file
 tap rcmdnk/file
-brew brew-file --HEAD
+brew brew-file
 
 ## sanemat/font
 tap sanemat/font
@@ -83,58 +83,58 @@ brew ricty --powerline --vim-powerline
 brew afsctool
 brew autoconf
 brew automake
-brew bdw-gc --HEAD
+brew bdw-gc
 brew bison
 brew boost
-brew boot2docker --HEAD
+brew boot2docker
 brew cabal-install
 brew cairo
 brew colordiff
-brew coreutils --HEAD
+brew coreutils
 brew cscope
-brew ctags --HEAD
+brew ctags
 brew czmq
 brew docbook
 brew docbook-xsl
-brew docker --HEAD --with-experimental
+brew docker --with-experimental
 brew doxygen
-brew emacs --HEAD --with-cocoa
+brew emacs --with-cocoa
 brew fdk-aac
-brew ffmpeg --HEAD --with-fdk-aac --with-libass --with-libvorbis --with-libvpx --with-x265 --without-libvo-aacenc --with-fontconfig --with-freetype --with-libcaca
+brew ffmpeg --with-fdk-aac --with-libass --with-libvorbis --with-libvpx --with-x265 --without-libvo-aacenc --with-fontconfig --with-freetype --with-libcaca
 brew findutils
-brew fish --HEAD
-brew fizsh --HEAD
+brew fish
+brew fizsh
 brew flac
 brew flex
 brew fontconfig
-brew fontforge --HEAD
+brew fontforge
 brew freetype
 brew fribidi
 brew gawk
-brew gd --HEAD
+brew gd
 brew gdbm
 brew gdk-pixbuf
 brew gettext
 brew ghc
 brew ghostscript
-brew ghq --HEAD
+brew ghq
 brew gibo
-brew git --HEAD --with-blk-sha1 --with-pcre --with-persistent-https --with-gettext
+brew git --with-blk-sha1 --with-pcre --with-persistent-https --with-gettext
 brew glib
 brew gmp
 brew gnome-doc-utils
-brew go --HEAD
+brew go
 brew gobject-introspection
 brew gptfdisk
 brew gradle
 brew groovy --with-invokedynamic
 brew gtk-doc
-brew harfbuzz --HEAD
+brew harfbuzz
 brew htop-osx
 brew hub
 brew icu4c
-brew imagemagick --HEAD --with-librsvg
-brew itstool --HEAD
+brew imagemagick --with-librsvg
+brew itstool
 brew jbig2dec
 brew jpeg
 brew lame
@@ -143,70 +143,70 @@ brew libatomic_ops
 brew libcaca
 brew libcroco
 brew libebml
-brew libevent --HEAD
+brew libevent
 brew libffi
 brew libmagic
 brew libmatroska
-brew libogg --HEAD
+brew libogg
 brew libpng
 brew librsvg
 brew libsodium
 brew libtiff
 brew libtool
-brew libvorbis --HEAD
-brew libvpx --HEAD
+brew libvorbis
+brew libvpx
 brew libxml2 --HEAD --with-python
 brew little-cms2
 brew lua --with-completion
-brew luajit --HEAD
-brew macvim --HEAD --with-custom-icons --with-lua --with-luajit --with-override-system-vim --with-python3
+brew luajit
+brew macvim --with-custom-icons --with-lua --with-luajit --with-override-system-vim --with-python3
 brew maven
 brew media-info
 brew mercurial
-brew mkvtoolnix --HEAD --with-gettext
-brew mplayer --HEAD
-brew mplayershell --HEAD
+brew mkvtoolnix --with-gettext
+brew mplayer
+brew mplayershell
 brew nicovideo-dl
 brew nkf
 brew nmap
-brew nodebrew --HEAD
+brew nodebrew
 brew openssl
 brew pandoc
-brew pango --HEAD
-brew pcre --HEAD
+brew pango
+brew pcre
 brew pcre2
-brew peco --HEAD
+brew peco
 brew pixman
 brew pkg-config
 brew popt
 brew pstree
 brew python
-brew python3 --HEAD
+brew python3
 brew ragel
 brew re2c
 brew readline
-brew reattach-to-user-namespace --HEAD
+brew reattach-to-user-namespace
 brew rmtrash
 brew rtmpdump
 brew sqlite
 brew texi2html
 brew texinfo
-brew the_silver_searcher --HEAD
-brew tmux --HEAD
+brew the_silver_searcher
+brew tmux
 brew trash
 brew tree
 brew unixodbc
 brew w3m
 brew wakeonlan
-brew wget --HEAD --with-pcre
+brew wget
 brew x264
 brew x265
-brew xhyve --HEAD
+brew xhyve
 brew xvid
 brew xz
-brew yasm --HEAD
-brew youtube-dl --HEAD --with-rtmpdump
-brew zeromq --HEAD
+brew yasm
+brew youtube-dl --with-rtmpdump
+brew zeromq
 brew zsh
 
 # App Store applications
