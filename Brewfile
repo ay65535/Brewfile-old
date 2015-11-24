@@ -12,6 +12,7 @@ cask disk-inventory-x
 cask dupscanub
 cask evernote
 cask google-chrome
+cask google-drive
 cask launchcontrol
 cask libreoffice
 cask macwinzipper
