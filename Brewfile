@@ -58,6 +58,10 @@ cask webstorm-eap
 ## homebrew/binary
 tap homebrew/binary
 
+## homebrew/boneyard
+tap homebrew/boneyard
+brew gptfdisk
+
 ## homebrew/dupes
 tap homebrew/dupes
 brew grep
@@ -126,7 +130,6 @@ brew gmp
 brew gnome-doc-utils
 brew go
 brew gobject-introspection
-brew gptfdisk
 brew gradle
 brew groovy --with-invokedynamic
 brew gtk-doc
@@ -211,6 +214,7 @@ brew zeromq
 brew zsh
 
 # App Store applications
+appstore iPhoto
 appstore Kobito
 appstore LadioCast
 appstore LINE
