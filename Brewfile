@@ -58,10 +58,6 @@ cask webstorm-eap
 ## homebrew/binary
 tap homebrew/binary
 
-## homebrew/boneyard
-tap homebrew/boneyard
-brew gptfdisk
-
 ## homebrew/dupes
 tap homebrew/dupes
 brew grep
