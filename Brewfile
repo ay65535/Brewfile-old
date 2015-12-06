@@ -41,7 +41,6 @@ cask font-source-han-code-jp
 tap caskroom/versions
 cask 1password-beta
 cask android-studio-canary
-cask appcleaner-beta
 cask atom-beta
 cask clipmenu-dev
 cask firefoxdeveloperedition-ja
@@ -208,6 +207,11 @@ brew yasm
 brew youtube-dl --with-rtmpdump
 brew zeromq
 brew zsh
+
+# Below applications were installed by Cask,
+# but do not have corresponding casks.
+
+#cask appcleaner-beta (!)
 
 # App Store applications
 appstore iPhoto
