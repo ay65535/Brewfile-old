@@ -4,6 +4,7 @@
 ## caskroom/cask
 tap caskroom/cask
 brew brew-cask
+cask appcleaner
 cask atom
 cask backuploupe
 cask commander-one
@@ -207,11 +208,6 @@ brew yasm
 brew youtube-dl --with-rtmpdump
 brew zeromq
 brew zsh
-
-# Below applications were installed by Cask,
-# but do not have corresponding casks.
-
-#cask appcleaner-beta (!)
 
 # App Store applications
 appstore iPhoto
